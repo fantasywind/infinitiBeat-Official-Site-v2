@@ -1,0 +1,14 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "prestart": "coffee -c public/javascripts/*.coffee",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.4.2",
+    "jade": "*",
+    "stylus": "*"
+  }
+}
